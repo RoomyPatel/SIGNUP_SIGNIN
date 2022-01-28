@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Dribbble</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Template/assets/CSS/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/Template/assets/CSS/signup.css">
+</head>
+
+<body>
+    <div class="signup">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 main-sidebar">
+                    <div class="sidebar">
+                        <a href="#" target="_blank"><img src="/Template/assets/IMAGES/dribbble_logo.svg" alt="dribble_logo"
+                                class="dribble_logo"></a>
+                        <h4 class="heading_4">Discover the world's top<br /> Designers and Creatives.</h4>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form">
+                        <p class="para_1">Already a member?<a href="signin.html">Sign In</a></p>
+                        <h4 class="heading_4">Sign up to Dribble</h4>
+                        <div class="social_sign_up">
+                            <img src="/Template/assets/IMAGES/google_logo.png" alt="google_logo" class="google_logo">
+                            <button class="btn btn-primary btn_sign_up">Sign up with Google</button>
+                            <span class="twitter_icon"><i class="fab fa-twitter"></i></span>
+                        </div>
+                        <hr class="divider" />
+                        <p class="divider_text">Or</p>
+                        <div>
+                            <form class="needs-validation" novalidate>
+                                <div class="d-lg-flex d-md-flex d-sm-none justify-content-between mt-5">
+                                    <div class="mb-5">
+                                        <label for="validationCustom01" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="validationCustom01" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="mb-5 username_field">
+                                        <label for="validationCustomUsername" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="validationCustomUsername" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="mb-5">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input id="email" type="email" class="form-control" required>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="mb-5">
+                                    <label for="pwd" class="form-label">Password</label>
+                                    <input type="password" id="pwd" placeholder="6+ characters" class="form-control"
+                                        required>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="mb-3 form-check check_policy">
+                                    <input type="checkbox" class="form-check-input" id="invalidCheck" required>
+                                    <label class="form-check-label accept_policy" for="invalidCheck">Creating an account
+                                        means you're
+                                        okay with our<a href="#" target="_blank"> Terms of Service</a>,<a href="#"
+                                            target="_blank"> Privacy Policy</a>, and our default<a href="#"
+                                            target="_blank"> Notification Settings.</a></label>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn_account">Create Account</button>
+                                <div class="instruction">
+                                    This site is protected by reCAPTCHA and the Google<br /><a href="#"
+                                        target="_blank">Privacy Policy</a> and <a href="#" target="_blank">Terms of
+                                        Service</a> apply.
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="/Template/assets/JS/jquery.js"></script>
+    <script src="/Template/assets/JS/bootstrap.min.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+</body>
+
+</html>

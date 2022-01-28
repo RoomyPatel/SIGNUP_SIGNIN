@@ -1,0 +1,265 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+.signup{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.signup .main-sidebar{
+    padding-left: 0px;
+}
+.signup .main-sidebar .sidebar{
+    position: fixed;
+    background: #f2d184;
+    color: #866118;
+    width: 514px;
+    height: 656px;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.signup .main-sidebar .sidebar .dribble_logo{
+    width: 90px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.signup .main-sidebar .sidebar .heading_4{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.signup .form{
+    margin-left: 130px;
+}
+.signup .form a{
+    color: #4f3cc9;
+    text-decoration: none;
+}
+.signup .form .heading_4{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.signup .form .para_1{
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: end;
+    font-size: 15px;
+}
+.signup .form .social_sign_up{
+    margin-bottom: 40px;
+}
+.signup .form .social_sign_up .btn_sign_up{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:80px;
+    padding-right:40px;
+}
+.signup .form .social_sign_up .google_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 12px 12px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+}
+.signup .form .social_sign_up .twitter_icon{
+    margin-left: 20px;
+    color: #6e6d7a;
+    background-color: #f2f2f2;
+    padding: 12px 15px;
+    border-radius: 7px;
+}
+.signup .form .divider {
+    position: relative;
+    width: 450px;
+}
+.signup .form .divider_text{
+    position: absolute;
+    color: #6e6d7a;
+    background-color: #fff;
+    width: 60px;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: -28px;
+    margin-left: 200px;
+}
+.signup .form label{
+    color: #0d0c22;
+    font-weight: bold;
+}
+.signup .form .username_field{
+    margin-right: 180px;
+}
+.signup .form input[type='text'],input[type='password'], input[type='email']{
+    background-color: #f3f3f4;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.signup .form input[type='password']::placeholder{
+    color: #6e6d7a;
+}
+.signup .form input[type='password'], input[type='email']{
+    width: 455px;
+}
+.signup .form input[type='text']:focus{
+    background-color: #fff;
+    border: 0.5px solid #ff92bc;
+    box-shadow: 0px 0px 5px 5px #f3f3f4;
+}
+.signup .form input[type='email']:focus{
+    background-color: #fff;
+    border: 0.5px solid #ff92bc;
+    box-shadow: 0px 0px 5px 5px #f3f3f4;
+}
+.signup .form input[type='password']:focus{
+    background-color: #fff;
+    border: 0.5px solid #ff92bc;
+    box-shadow: 0px 0px 5px 5px #f3f3f4;
+}
+.signup .form .btn_account{
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #ea4c89;
+    margin-bottom: 20px;
+}
+.signup .form .btn_account:hover{
+    opacity: 0.8;
+}
+.signup .form .check_policy{
+    padding-bottom: 20px;
+}
+.signup .form .check_policy .accept_policy{
+    color: #6e6d7a;
+    font-weight: 100;
+    font-size: 15px;
+    margin-right: 200px;
+}
+.signup .form .instruction{
+    color: #9e9ea7;
+    font-size: 13px;
+}
+}
+
+
+/*Big size ipad*/
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .signup .main-sidebar .sidebar{
+        position:static;
+        background: #fff;
+        width: 0px;
+        height: 0px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 193px;
+    }
+    .signup .main-sidebar .sidebar .heading_4{
+        visibility: hidden;
+    }
+    .signup .form{
+        margin-left: 180px;
+    }
+    .signup .form .para_1{
+        position: absolute;
+        margin-top: 680px;
+        margin-right: 0px;
+        margin-left: 140px;
+        font-size: 15px;
+    }
+    .signup .form .heading_4{
+        margin-top: 40px;
+    }
+    .signup .form .btn_account{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .signup .form .divider {
+        width: 445px;
+    }
+    .signup .form .divider_text{
+        margin-left: 200px;
+    }
+    .signup .form .username_field{
+        margin-right: 170px;
+    }
+    .signup .form input[type='password'], input[type='email']{
+        width: 450px;
+    }
+    .signup .form .btn_account{
+        padding: 10px 170px;
+        margin-bottom: 20px;
+    }
+    .signup .form .check_policy .accept_policy{
+        letter-spacing: 0.50px;
+        margin-right: 120px;
+    }
+    .signup .form .instruction{
+        margin-top: 40px;
+    }
+}
+
+
+/*mobile view*/
+@media (max-width: 767px) {
+    .signup .main-sidebar .sidebar{
+        position:static;
+        background: #fff;
+        width: 0px;
+        height: 0px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+    }
+    .signup .main-sidebar .sidebar .heading_4{
+        visibility: hidden;
+    }
+    .signup .form{
+        margin-left: 20px;
+    }
+    .signup .form .para_1{
+        position: absolute;
+        margin-top: 820px;
+        margin-right: 0px;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .signup .form .heading_4{
+        margin-top: 40px;
+    }
+    .signup .form .btn_account{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .signup .form .divider {
+        width: 350px;
+    }
+    .signup .form .divider_text{
+        margin-left: 150px;
+    }
+    .signup .form .username_field{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .signup .form input[type='password'], input[type='email']{
+        width: 345px;
+    }
+    .signup .form .btn_account{
+        padding: 10px 115px;
+        margin-bottom: 20px;
+    }
+    .signup .form .check_policy .accept_policy{
+        letter-spacing: 0.60px;
+        margin-right: 0px;
+    }
+    .signup .form .instruction{
+        margin-top: 40px;
+    }
+ }

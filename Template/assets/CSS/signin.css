@@ -1,0 +1,220 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+.signin{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.signin .main-sidebar{
+    padding-left: 0px;
+}
+.signin .main-sidebar .sidebar{
+    position: fixed;
+    color: #865c6c;
+    background: #f1cdd7;
+    width: 514px;
+    height: 656px;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.signin .main-sidebar .sidebar .dribble_logo{
+    width: 90px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.signin .main-sidebar .sidebar .heading_4{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.signin .form{
+    margin-left: 130px;
+}
+.signin .form a{
+    color: #4f3cc9;
+    text-decoration: none;
+}
+.signin .form .heading_4{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.signin .form .para_1{
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: end;
+    margin-bottom: 110px;
+    font-size: 15px;
+}
+.signin .form .social_sign_in{
+    margin-bottom: 40px;
+}
+.signin .form .social_sign_in .btn_sign_in{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:80px;
+    padding-right:40px;
+}
+.signin .form .social_sign_in .google_logo{
+    position: absolute;
+    z-index: 1;
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 12px 12px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+}
+.signin .form .social_sign_in .twitter_icon{
+    margin-left: 20px;
+    color: #6e6d7a;
+    background-color: #f2f2f2;
+    padding: 12px 15px;
+    border-radius: 7px;
+}
+.signin .form .divider {
+    position: relative;
+    width: 445px;
+}
+.signin .form .divider_text{
+    position: absolute;
+    color: #6e6d7a;
+    background-color: #fff;
+    width: 60px;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: -28px;
+    margin-left: 200px;
+}
+.signin .form label{
+    color: #0d0c22;
+    font-weight: bold;
+}
+.signin .form .username_field{
+    margin-top: 40px;
+}
+.signin .form input[type='text'],input[type='password'], input[type='email']{
+    background-color: #f3f3f4;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 450px;
+}
+.signin .form input[type='text']:focus{
+    background-color: #fff;
+    border: 0.5px solid #ff92bc;
+    box-shadow: 0px 0px 5px 5px #f3f3f4;
+}
+.signin .form input[type='password']:focus{
+    background-color: #fff;
+    border: 0.5px solid #ff92bc;
+    box-shadow: 0px 0px 5px 5px #f3f3f4;
+}
+.signin .form .link{
+    font-weight: normal;
+    padding-left: 245px;
+    font-size: 15px;
+}
+.signin .form .btn_account{
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 80px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ea4c89;
+}
+.signin .form .btn_account:hover{
+    opacity: 0.8;
+}
+}
+
+/*Big size ipad*/
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .signin .main-sidebar .sidebar{
+        position:static;
+        background: #fff;
+        width: 0px;
+        height: 0px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 193px;
+    }
+    .signin .main-sidebar .sidebar .heading_4{
+        visibility: hidden;
+    }
+    .signin .form{
+        margin-left: 180px;
+    }
+    .signin .form .para_1{
+        position: absolute;
+        margin-top: 430px;
+        margin-right: 0px;
+        margin-left: 140px;
+        font-size: 15px;
+    }
+    .signin .form .heading_4{
+        margin-top: 40px;
+    }
+    .signin .form .btn_account{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .signin .form input[type='password'], input[type='email']{
+        width: 450px;
+    }
+    .signin .form .btn_account{
+        padding: 10px 202px;
+    }
+ }
+
+
+/*mobile view*/
+@media (max-width: 767px) {
+    .signin .main-sidebar .sidebar{
+        position:static;
+        background: #fff;
+        width: 0px;
+        height: 0px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+    }
+    .signin .main-sidebar .sidebar .heading_4{
+        visibility: hidden;
+    }
+    .signin .form{
+        margin-left: 20px;
+    }
+    .signin .form .para_1{
+        position: absolute;
+        margin-top: 425px;
+        margin-right: 0px;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .signin .form .heading_4{
+        margin-top: 40px;
+    }
+    .signin .form .btn_account{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .signin .form .divider {
+        width: 350px;
+    }
+    .signin .form .divider_text{
+        margin-left: 150px;
+    }
+    .signin .form input[type='text'],input[type='password']{
+        width: 345px;
+    }
+    .signin .form .link{
+        padding-left: 145px;
+    }
+    .signin .form .btn_account{
+        padding: 10px 148px;
+    }
+}

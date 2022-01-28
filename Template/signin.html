@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Dribbble</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Template/assets/CSS/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/Template/assets/CSS/signin.css">
+</head>
+
+<body>
+    <div class="signin">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 main-sidebar">
+                    <div class="sidebar">
+                        <a href="#" target="_blank"><img src="/Template/assets/IMAGES/dribbble_logo.svg" alt="dribble_logo"
+                                class="dribble_logo"></a>
+                        <h4 class="heading_4">Discover the world's top<br /> Designers and Creatives.</h4>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form">
+                        <p class="para_1">Not a member?<a href="signup.html">Sign up now</a></p>
+                        <h4 class="heading_4">Sign in to Dribble</h4>
+                        <div class="social_sign_in">
+                            <img src="/Template/assets/IMAGES/google_logo.png" alt="google_logo" class="google_logo">
+                            <button class="btn btn-primary btn_sign_in">Sign in with Google</button>
+                            <span class="twitter_icon"><i class="fab fa-twitter"></i></span>
+                        </div>
+                        <hr class="divider" />
+                        <p class="divider_text">Or</p>
+                        <div>
+                            <form class="needs-validation" novalidate>
+                                <div class="mb-4 username_field">
+                                    <label for="validationCustom01"class="form-label">Username or Email Address</label>
+                                    <input type="text" id="validationCustom01" class="form-control" required>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="pwd" class="form-label">Password<span><a href="forgotpassword.html" 
+                                                class="link">Forgot password?</a></span></label>
+                                    <input id="pwd" type="password" class="form-control" required>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <button type="submit" class="btn btn_account">Sign In</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="/Template/assets/JS/jquery.js"></script>
+    <script src="/Template/assets/JS/bootstrap.min.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+</body>
+
+</html>
